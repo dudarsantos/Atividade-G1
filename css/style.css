@@ -1,0 +1,295 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #C4170C 0% 0% no-repeat padding-box;
+    background: #C4170C 100%;
+    background-position: left;
+}
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu img {
+    display: flex;
+    width: 46px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.menu p {
+    left: 157px;
+    width: 73px;
+    height: 33px;
+    text-align: left;
+    font: normal normal 600 25px/33px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFF;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+.g1_logo img {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 96px;
+}
+
+.busca {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 36px;
+    margin-right: 45px;
+    background: #8b0000 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.busca input {
+    font-size: 20px;
+    top: 39px;
+    left: 1499px;
+    width: 326px;
+    height: 46px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+
+.busca input::placeholder {
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+
+.busca img {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font: normal 600 20px/28px Segoe UI;
+    font-size: 30px;
+    margin: 60px;
+}
+
+.conteudo {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.container-noticias {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.container-noticias .coluna {
+    width: 50%;
+}
+
+.imagens img {
+    width: 100%;
+    height: auto;
+}
+
+.fgts {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border: #707070 solid 1px;
+    margin-right: 35px;
+    border-radius: 2px;
+}
+
+.container-noticias .c1 {
+    display: flex;
+    max-width: 100%;
+}
+
+.base {
+    margin-top: 60px;
+}
+
+.imagens {
+    margin-left: 18px ;
+}
+
+.imagens span {
+    font: normal 500 20px/28px Segoe UI;
+    font-size: 21px;
+    color: #000;
+}
+
+.fgts h3 {
+    font: normal 700 20px/28px Segoe UI;
+    font-size: 40px;
+    color: #C4170C;
+    line-height: 50px;
+    margin-left: 25px;
+}
+
+.fgts p {
+    font: normal 500 20px/28px Segoe UI;
+    font-size: 20px;
+    color: #C4170C;
+    margin-left: 25px;
+}
+
+.container-notas {
+    display: flex;
+    flex-direction: column;
+}
+
+.notas {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #707070;
+    margin-top: 100px;
+}
+
+.img-notas {
+    margin-right: 53px;
+}
+
+.notas > div {
+    width: 50%;
+}
+
+
+.c4 {
+    padding-bottom: 400px;
+}
+
+.notas img {
+    width: 100%;
+}
+
+.notas h2 {
+    font: normal 600 20px/28px Segoe UI;
+    font-size: 25px;
+    margin: 0;
+}
+
+.notas h3 {
+    font: normal 600 20px/28px Segoe UI;
+    font-size: 35px;
+    color: #C4170C;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 35px;
+    line-height: 50px;
+}
+
+.notas p {
+    font: normal 400 20px/28px Segoe UI;
+    font-size: 27px;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.notas span {
+    font: normal 200 20px/28px Segoe UI;
+    font-size: 27px;
+    color: #707070;
+    margin: 0;
+    margin-bottom: 20px;
+
+}
+
+.container-botao {
+    display: flex;
+    justify-content: center;
+    padding: 180px 0px;
+}
+
+button {
+    font: normal 300 Segoe UI;
+    font-size: 14px;
+    cursor: pointer;
+    background: #C4170C;
+    color: #FFF;
+    border: none;
+    border-radius: 2px;
+    width: 280px;
+    height: 65px;
+    /* position: fixed;
+    bottom: -2100px; */
+    left: 600px;
+}
+
+
+.footer {
+    display: flex;
+    background: #C4170C 0% 0% no-repeat padding-box;
+    background: #C4170C 100%;
+    background-position: left;
+}
+
+.footer img {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.footer span {
+    display: flex;
+    width: 212;
+    height: 40px;
+    text-align: left;
+    font: normal 600 20px/28px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFF;
+    opacity: 1;
+    margin: 45px 0 40px 10px;
+}
+
+.footer p {
+    display: flex;
+    line-height: 230px;
+    font-size: 18px;
+    color: #FFF;
+    text-align: left;
+    margin-right: 45px;
+    margin-left: -240px;
+}
+
+.container {
+    max-width: 1500px;
+    /* margin: auto; */
+    display: flex;
+    color: #FFF;
+    background: #C4170C;
+    
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.item {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0px 10px;
+    text-align: center;
+    font: normal 300 20px/28px Segoe UI;
+}
+
